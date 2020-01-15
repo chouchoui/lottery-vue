@@ -1,0 +1,96 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.result {
+    position: absolute;
+    height: 320px;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    margin-top: -160px;
+    text-align: center;
+    padding: 10px;
+}
+
+.result span {
+    display: inline-block;
+    font-size: 60px;
+    background: #fff;
+    line-height: 60px;
+    color: #000;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    padding: 20px 80px;
+    letter-spacing: 5px;
+}
+
+/* button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    border: none;
+} */
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+
+.tools {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.tools .pure-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.mask {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+#main {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.result-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    padding: 10px;
+}
+
+/* #myCanvas {
+    width: 100vw;
+    height: 100vh;
+} */
